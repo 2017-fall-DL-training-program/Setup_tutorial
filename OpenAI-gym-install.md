@@ -1,6 +1,6 @@
 # OpenAI Gym Install & Setting
 
-Assume we already installed all of other packages we need(tf, pytorch etc.)  
+Assume we already installed all of deep learning packages we need(tf, pytorch etc.)  
 
 
 ## Install openai-gym
@@ -26,10 +26,10 @@ cd gym
 pip3 install gym[all]
 ```
 
-## Using fake screen to get videos
+## Use fake screen to get videos
 
 
-Because remote server has no display device, so we can't see the training process and save videos.  
+Because remote server has no display device, we can't see the training process and save videos.  
 So we will use the following method to get the remote screen.
 
 
@@ -67,7 +67,7 @@ sudo service lightdm restart
 
 - Auto login setting
 
-bulid(or modify) file ``/etc/lightdm/lightdm.conf``
+bulid(or modify) file ``vim /etc/lightdm/lightdm.conf``  
 write the following lines:
 
 ```
