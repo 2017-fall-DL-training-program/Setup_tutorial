@@ -1,6 +1,6 @@
 # OpenAI Gym Install & Setting
 
-Assume we already installed all of deep learning packages we need(tf, pytorch etc.)  
+Assume we already installed all of deep learning packages we need(tf, pytorch etc.) Also assumes you have an NVIDIA GPU driver. 
 
 
 ## Install openai-gym
