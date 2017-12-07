@@ -1,4 +1,4 @@
-# NVIDIA Driver & Pytorch installation 
+# NVIDIA Driver & Pytorch(TensorFlow) installation 
 
 The simple setup tutorial for deep learning beginner. 
 
