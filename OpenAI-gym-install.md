@@ -76,19 +76,20 @@ autologin-guest=false
 autologin-user=username
 autologin-user-timeout=0
 ```
-then restart X server again.
+
+then restart X server again. ``sudo service lightdm restart``
 
 - Install anydesk
     - Download & upload to your server(via sftp, scp or using wget etc.)
     - Install deb: ``sudo dpkg -i anydesk.XXX.deb``
     - Set password: ``anydesk --set-password``
-    - Get ID: ``anydesk --get-id``
+      - e.g.``echo lovefm26671 | anydesk alias@ad --with-password``
     - run anydesk ``anydesk``
+    - Get ID: ``anydesk --get-id``
     - (optinal) if it still doesn't work, try to use cmd ``export DISPLAY=:0``
 
 
 ## Use AnyDesk
-
 
 - Download AnyDesk from [official website][3], windowsx64 version in this tutorial.  
 - Double click to run the application(no need to install).
