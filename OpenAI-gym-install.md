@@ -83,10 +83,11 @@ then restart X server again. ``sudo service lightdm restart``
     - Download & upload to your server(via sftp, scp or using wget etc.)
     - Install deb: ``sudo dpkg -i anydesk.XXX.deb``
     - Set password: ``anydesk --set-password``
-      - e.g.``echo lovefm26671 | anydesk alias@ad --with-password``
+      - e.g.``echo lovefm26671 | anydesk --with-password``
     - run anydesk ``anydesk``
     - Get ID: ``anydesk --get-id``
     - (optinal) if it still doesn't work, try to use cmd ``export DISPLAY=:0``
+    - see [Command Line Interface][7] for more details.
 
 
 ## Use AnyDesk
